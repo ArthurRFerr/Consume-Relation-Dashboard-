@@ -3,3 +3,4 @@ pandas
 numpy 
 plotly
 bcrypt
+streamlit_authenticator
