@@ -12,7 +12,7 @@ st.markdown(
    
 
 # -------------------------Caminho do arquivo
-caminho_arquivo = "MediaEventosTotalDataAnalysis.xlsx" #Define o caminho do arquivo pra análise
+caminho_arquivo = "data/MediaEventosTotalDataAnalysis.xlsx" #Define o caminho do arquivo pra análise
 
 
 # -------------------------Mapeamento
@@ -150,5 +150,6 @@ if tipo == "Alimentos":
     mostrar_dashboard(df_alimentos, "Alimentos")
 elif tipo == "Bebidas":
      mostrar_dashboard(df_bebidas, "Bebidas")
+
 
 
